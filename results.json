@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Sam Altman từng làm ở đâu trước khi gắn liền với OpenAI?",
+    "flat_rag": "Trước khi gắn liền với OpenAI, Sam Altman từng làm việc tại Y Combinator.",
+    "graph_rag": "Sam Altman từng làm ở Y Combinator trước khi gắn liền với OpenAI."
+  },
+  {
+    "question": "Công ty nào đầu tư vào OpenAI và họ có hợp tác gì?",
+    "flat_rag": "Công ty đầu tư vào OpenAI là Microsoft. Họ hợp tác để tích hợp GPT-4 vào Bing và Office 365.",
+    "graph_rag": "Microsoft là công ty đầu tư vào OpenAI và họ hợp tác phát triển công nghệ, bao gồm việc tích hợp GPT-4 vào các sản phẩm như Office 365 và Bing."
+  },
+  {
+    "question": "Dario Amodei làm gì tại OpenAI trước khi rời đi?",
+    "flat_rag": "Dario Amodei từng là VP Research tại OpenAI trước khi thành lập Anthropic.",
+    "graph_rag": "Dario Amodei từng giữ vị trí VP Research tại OpenAI trước khi rời đi."
+  },
+  {
+    "question": "Elon Musk liên quan đến những công ty nào?",
+    "flat_rag": "Elon Musk liên quan đến các công ty sau: Tesla, SpaceX và OpenAI.",
+    "graph_rag": "Elon Musk liên quan đến các công ty sau: SpaceX, OpenAI, Tesla, và xAI."
+  },
+  {
+    "question": "Alphabet được thành lập khi nào và liên quan đến công ty nào?",
+    "flat_rag": "Alphabet được thành lập vào năm 2015 và liên quan đến Google, vì Google thuộc tập đoàn Alphabet.",
+    "graph_rag": "Alphabet được thành lập vào năm 2015 và liên quan đến công ty Google."
+  },
+  {
+    "question": "Những mô hình ngôn ngữ nào được phát triển bởi các công ty thành lập sau năm 2000?",
+    "flat_rag": "Các mô hình ngôn ngữ được phát triển bởi các công ty thành lập sau năm 2000 bao gồm:\n\n1. Grok - phát triển bởi xAI, được thành lập vào năm 2023.\n2. Mistral Large - phát triển bởi Mistral AI, được thành lập vào năm 2023. \n\nOpenAI, mặc dù được thành lập vào năm 2015, cũng phát triển mô hình GPT-4 và ChatGPT, nhưng không nằm trong danh sách các công ty thành lập sau năm 2000.",
+    "graph_rag": "[GraphRAG] Không tìm thấy entity liên quan trong đồ thị."
+  },
+  {
+    "question": "Mark Zuckerberg và Sam Altman là CEO/người sáng lập của những công ty nào và các công ty đó phát triển sản phẩm gì?",
+    "flat_rag": "Mark Zuckerberg là người sáng lập và CEO của Meta, công ty phát triển các sản phẩm như Facebook và Instagram. Sam Altman là CEO của OpenAI, công ty này phát triển các mô hình AI, bao gồm cả ChatGPT.",
+    "graph_rag": "Mark Zuckerberg là người sáng lập Meta, công ty phát triển Facebook, LLaMA và Instagram. Sam Altman là người sáng lập OpenAI và hiện là CEO của công ty này, phát triển ChatGPT và tích hợp GPT-4."
+  },
+  {
+    "question": "Ai là người sáng lập công ty phát triển mô hình Claude và người đó từng có liên hệ gì với công ty phát triển GPT-4?",
+    "flat_rag": "Người sáng lập công ty phát triển mô hình Claude là Dario Amodei và Daniela Amodei. Dario Amodei từng là một trong những nhân viên chủ chốt tại OpenAI, công ty phát triển mô hình GPT-4, trước khi thành lập Anthropic.",
+    "graph_rag": "Người sáng lập công ty phát triển mô hình Claude là Dario Amodei và Daniela Amodei. Dario Amodei từng có liên hệ với OpenAI, nơi mà Sam Altman và Elon Musk là những người sáng lập."
+  },
+  {
+    "question": "Microsoft có liên quan như thế nào đến công ty do Sam Altman thành lập?",
+    "flat_rag": "Microsoft có liên quan đến OpenAI, công ty do Sam Altman thành lập, thông qua việc đầu tư vào OpenAI và phát triển nền tảng điện toán đám mây Azure. Sự hợp tác này giúp OpenAI có được nguồn lực và công nghệ cần thiết để phát triển các mô hình trí tuệ nhân tạo như GPT-4 và ChatGPT.",
+    "graph_rag": "Microsoft có quan hệ đối tác với OpenAI, công ty do Sam Altman làm CEO. OpenAI được thành lập vào năm 2015 và Sam Altman là một trong những người sáng lập."
+  },
+  {
+    "question": "Công ty nào phát triển Gemini và công ty mẹ của nó được thành lập vào năm nào?",
+    "flat_rag": "Công ty phát triển Gemini là Google, và công ty mẹ của nó được thành lập vào năm 1998.",
+    "graph_rag": "Công ty phát triển Gemini là Google, và công ty mẹ của nó, Alphabet, được thành lập vào năm 1998."
+  },
+  {
+    "question": "Elon Musk có vai trò gì với công ty đang hợp tác cùng Microsoft?",
+    "flat_rag": "Elon Musk đã từng là một trong những người sáng lập OpenAI, nhưng ông đã rời khỏi ban điều hành của OpenAI vào năm 2018. Do đó, hiện tại ông không có vai trò gì trong công ty OpenAI, công ty đang hợp tác với Microsoft.",
+    "graph_rag": "Elon Musk là một trong những người sáng lập OpenAI, công ty đang hợp tác với Microsoft."
+  },
+  {
+    "question": "Công ty nào phát triển LLaMA và được thành lập năm nào?",
+    "flat_rag": "Công ty phát triển LLaMA là Meta, được thành lập vào năm 2004.",
+    "graph_rag": "Công ty phát triển LLaMA là Meta, được thành lập năm 2004."
+  },
+  {
+    "question": "Các sản phẩm tích hợp mô hình GPT-4 của Microsoft là gì?",
+    "flat_rag": "Các sản phẩm tích hợp mô hình GPT-4 của Microsoft bao gồm Bing và Office 365.",
+    "graph_rag": "Các sản phẩm tích hợp mô hình GPT-4 của Microsoft là Office 365 và Bing."
+  },
+  {
+    "question": "Sam Altman có mối liên hệ nào với Y Combinator và OpenAI?",
+    "flat_rag": "Sam Altman từng làm việc tại Y Combinator và hiện là CEO của OpenAI, tổ chức mà ông đồng sáng lập cùng với Elon Musk vào năm 2015.",
+    "graph_rag": "Sam Altman là CEO của OpenAI và đã làm việc tại Y Combinator."
+  },
+  {
+    "question": "Ai là người đồng sáng lập Google cùng với Larry Page?",
+    "flat_rag": "Người đồng sáng lập Google cùng với Larry Page là Sergey Brin.",
+    "graph_rag": "Người đồng sáng lập Google cùng với Larry Page là Sergey Brin."
+  },
+  {
+    "question": "Công ty nào trong dữ liệu được thành lập trước năm 2000 và ai là người sáng lập?",
+    "flat_rag": "Trong dữ liệu không có công ty nào được thành lập trước năm 2000. Tất cả các công ty được đề cập đều được thành lập sau năm 2000.",
+    "graph_rag": "[GraphRAG] Không tìm thấy entity liên quan trong đồ thị."
+  },
+  {
+    "question": "Mô hình GPT-4 do công ty nào phát triển và công ty đó nhận đầu tư từ ai?",
+    "flat_rag": "Mô hình GPT-4 được phát triển bởi OpenAI, và công ty này nhận đầu tư từ Microsoft.",
+    "graph_rag": "Mô hình GPT-4 được phát triển bởi OpenAI, công ty này được thành lập bởi Sam Altman và Elon Musk."
+  },
+  {
+    "question": "Dario Amodei và Daniela Amodei đã thành lập công ty nào vào năm 2021?",
+    "flat_rag": "Dario Amodei và Daniela Amodei đã thành lập công ty Anthropic vào năm 2021.",
+    "graph_rag": "Dario Amodei và Daniela Amodei đã thành lập công ty Anthropic vào năm 2021."
+  },
+  {
+    "question": "Mark Zuckerberg thành lập Meta vào năm nào và công ty này phát triển những sản phẩm nào?",
+    "flat_rag": "Mark Zuckerberg thành lập Meta vào năm 2004. Công ty này phát triển các sản phẩm như Facebook và Instagram.",
+    "graph_rag": "Mark Zuckerberg thành lập Meta vào năm 2004. Công ty này phát triển các sản phẩm như Facebook, LLaMA và Instagram."
+  },
+  {
+    "question": "Những công ty nào trong dữ liệu có liên quan đến việc phát triển mô hình ngôn ngữ lớn (LLM)?",
+    "flat_rag": "Các công ty trong dữ liệu có liên quan đến việc phát triển mô hình ngôn ngữ lớn (LLM) bao gồm:\n\n1. xAI - phát triển mô hình ngôn ngữ Grok.\n2. Mistral AI - phát triển mô hình Mistral Large.\n3. OpenAI - phát triển mô hình GPT-4 và ChatGPT.",
+    "graph_rag": "[GraphRAG] Không tìm thấy entity liên quan trong đồ thị."
+  }
+]

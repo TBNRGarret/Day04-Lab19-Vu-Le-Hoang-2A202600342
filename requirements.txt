@@ -2,3 +2,8 @@ openai
 networkx
 matplotlib
 scikit-learn
+neo4j
+pandas
+noderag
+langchain
+langchain-openai

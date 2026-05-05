@@ -1,0 +1,302 @@
+[
+  {
+    "subject": "OpenAI",
+    "relation": "FOUNDED_BY",
+    "object": "Sam Altman"
+  },
+  {
+    "subject": "OpenAI",
+    "relation": "FOUNDED_BY",
+    "object": "Elon Musk"
+  },
+  {
+    "subject": "OpenAI",
+    "relation": "FOUNDED_IN",
+    "object": "2015"
+  },
+  {
+    "subject": "OpenAI",
+    "relation": "DEVELOPS",
+    "object": "GPT-4"
+  },
+  {
+    "subject": "OpenAI",
+    "relation": "DEVELOPS",
+    "object": "ChatGPT"
+  },
+  {
+    "subject": "Google",
+    "relation": "FOUNDED_BY",
+    "object": "Larry Page"
+  },
+  {
+    "subject": "Google",
+    "relation": "FOUNDED_BY",
+    "object": "Sergey Brin"
+  },
+  {
+    "subject": "Google",
+    "relation": "FOUNDED_IN",
+    "object": "1998"
+  },
+  {
+    "subject": "Google",
+    "relation": "DEVELOPS",
+    "object": "Gemini"
+  },
+  {
+    "subject": "Google",
+    "relation": "DEVELOPS",
+    "object": "Google Search"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "FOUNDED_BY",
+    "object": "Bill Gates"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "FOUNDED_BY",
+    "object": "Paul Allen"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "FOUNDED_IN",
+    "object": "1975"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "INVESTS_IN",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "DEVELOPS",
+    "object": "Azure"
+  },
+  {
+    "subject": "Meta",
+    "relation": "FOUNDED_BY",
+    "object": "Mark Zuckerberg"
+  },
+  {
+    "subject": "Meta",
+    "relation": "FOUNDED_IN",
+    "object": "2004"
+  },
+  {
+    "subject": "Meta",
+    "relation": "DEVELOPS",
+    "object": "LLaMA"
+  },
+  {
+    "subject": "Meta",
+    "relation": "DEVELOPS",
+    "object": "Facebook"
+  },
+  {
+    "subject": "Meta",
+    "relation": "DEVELOPS",
+    "object": "Instagram"
+  },
+  {
+    "subject": "Anthropic",
+    "relation": "FOUNDED_BY",
+    "object": "Dario Amodei"
+  },
+  {
+    "subject": "Anthropic",
+    "relation": "FOUNDED_BY",
+    "object": "Daniela Amodei"
+  },
+  {
+    "subject": "Anthropic",
+    "relation": "FOUNDED_IN",
+    "object": "2021"
+  },
+  {
+    "subject": "Anthropic",
+    "relation": "DEVELOPS",
+    "object": "Claude"
+  },
+  {
+    "subject": "Sam Altman",
+    "relation": "IS_CEO_OF",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "Sam Altman",
+    "relation": "WORKED_AT",
+    "object": "Y Combinator"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "FOUNDED",
+    "object": "Tesla"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "FOUNDED",
+    "object": "SpaceX"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "LEFT_EXECUTIVE_BOARD",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "Elon Musk",
+    "relation": "LEFT_EXECUTIVE_BOARD_IN",
+    "object": "2018"
+  },
+  {
+    "subject": "Google",
+    "relation": "BELONGS_TO",
+    "object": "Alphabet"
+  },
+  {
+    "subject": "Alphabet",
+    "relation": "FOUNDED_IN",
+    "object": "2015"
+  },
+  {
+    "subject": "Microsoft",
+    "relation": "PARTNERS_WITH",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "OpenAI",
+    "relation": "INTEGRATES",
+    "object": "GPT-4"
+  },
+  {
+    "subject": "GPT-4",
+    "relation": "INTO",
+    "object": "Bing"
+  },
+  {
+    "subject": "GPT-4",
+    "relation": "INTO",
+    "object": "Office 365"
+  },
+  {
+    "subject": "Dario Amodei",
+    "relation": "FORMER_POSITION",
+    "object": "VP Research"
+  },
+  {
+    "subject": "Dario Amodei",
+    "relation": "WORKED_AT",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "Dario Amodei",
+    "relation": "FOUNDED",
+    "object": "Anthropic"
+  },
+  {
+    "subject": "Apple",
+    "relation": "FOUNDED_BY",
+    "object": "Steve Jobs"
+  },
+  {
+    "subject": "Apple",
+    "relation": "FOUNDED_BY",
+    "object": "Steve Wozniak"
+  },
+  {
+    "subject": "Apple",
+    "relation": "FOUNDED_BY",
+    "object": "Ronald Wayne"
+  },
+  {
+    "subject": "Apple",
+    "relation": "FOUNDED_IN",
+    "object": "1976"
+  },
+  {
+    "subject": "Apple",
+    "relation": "DEVELOPS",
+    "object": "iOS"
+  },
+  {
+    "subject": "Apple",
+    "relation": "DEVELOPS",
+    "object": "macOS"
+  },
+  {
+    "subject": "Amazon",
+    "relation": "FOUNDED_BY",
+    "object": "Jeff Bezos"
+  },
+  {
+    "subject": "Amazon",
+    "relation": "FOUNDED_IN",
+    "object": "1994"
+  },
+  {
+    "subject": "Amazon",
+    "relation": "DEVELOPS",
+    "object": "AWS"
+  },
+  {
+    "subject": "Amazon",
+    "relation": "INVESTS_IN",
+    "object": "Anthropic"
+  },
+  {
+    "subject": "Ilya Sutskever",
+    "relation": "WAS",
+    "object": "Chief Scientist"
+  },
+  {
+    "subject": "Ilya Sutskever",
+    "relation": "AT",
+    "object": "OpenAI"
+  },
+  {
+    "subject": "Ilya Sutskever",
+    "relation": "LEFT",
+    "object": "2024"
+  },
+  {
+    "subject": "Ilya Sutskever",
+    "relation": "FOUNDED",
+    "object": "Safe Superintelligence"
+  },
+  {
+    "subject": "xAI",
+    "relation": "FOUNDED_BY",
+    "object": "Elon Musk"
+  },
+  {
+    "subject": "xAI",
+    "relation": "FOUNDED_IN",
+    "object": "2023"
+  },
+  {
+    "subject": "xAI",
+    "relation": "DEVELOPS",
+    "object": "Grok"
+  },
+  {
+    "subject": "Mistral AI",
+    "relation": "FOUNDED_BY",
+    "object": "Arthur Mensch"
+  },
+  {
+    "subject": "Mistral AI",
+    "relation": "FOUNDED_IN",
+    "object": "2023"
+  },
+  {
+    "subject": "Mistral AI",
+    "relation": "DEVELOPS",
+    "object": "Mistral Large"
+  },
+  {
+    "subject": "Mistral AI",
+    "relation": "IS_COMPANY_OF",
+    "object": "Pháp"
+  }
+]

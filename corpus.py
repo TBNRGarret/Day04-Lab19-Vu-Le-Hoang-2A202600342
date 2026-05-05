@@ -9,4 +9,9 @@ CORPUS = [
     "Google thuộc tập đoàn Alphabet. Alphabet được thành lập vào năm 2015.",
     "Microsoft hợp tác với OpenAI để tích hợp GPT-4 vào Bing và Office 365.",
     "Dario Amodei từng là VP Research tại OpenAI trước khi thành lập Anthropic.",
+    "Apple được thành lập bởi Steve Jobs, Steve Wozniak và Ronald Wayne vào năm 1976. Apple phát triển hệ sinh thái iOS và macOS.",
+    "Amazon được thành lập bởi Jeff Bezos vào năm 1994. Amazon phát triển dịch vụ đám mây AWS và đầu tư vào Anthropic.",
+    "Ilya Sutskever từng là Chief Scientist tại OpenAI trước khi rời đi vào năm 2024 để thành lập Safe Superintelligence.",
+    "xAI được thành lập bởi Elon Musk vào năm 2023. xAI phát triển mô hình ngôn ngữ Grok.",
+    "Mistral AI là một công ty AI của Pháp được thành lập vào năm 2023 bởi Arthur Mensch. Mistral AI phát triển mô hình Mistral Large.",
 ]

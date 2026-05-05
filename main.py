@@ -15,17 +15,28 @@ from flat_rag import FlatRAG
 TRIPLES_FILE = "triples.json"
 GRAPH_FILE = "knowledge_graph.pkl"
 
-# ──────────────────────────────────────────
-# 5 câu hỏi benchmark (multi-hop)
-# ──────────────────────────────────────────
 QUESTIONS = [
     "Sam Altman từng làm ở đâu trước khi gắn liền với OpenAI?",
     "Công ty nào đầu tư vào OpenAI và họ có hợp tác gì?",
     "Dario Amodei làm gì tại OpenAI trước khi rời đi?",
     "Elon Musk liên quan đến những công ty nào?",
     "Alphabet được thành lập khi nào và liên quan đến công ty nào?",
+    "Những mô hình ngôn ngữ nào được phát triển bởi các công ty thành lập sau năm 2000?",
+    "Mark Zuckerberg và Sam Altman là CEO/người sáng lập của những công ty nào và các công ty đó phát triển sản phẩm gì?",
+    "Ai là người sáng lập công ty phát triển mô hình Claude và người đó từng có liên hệ gì với công ty phát triển GPT-4?",
+    "Microsoft có liên quan như thế nào đến công ty do Sam Altman thành lập?",
+    "Công ty nào phát triển Gemini và công ty mẹ của nó được thành lập vào năm nào?",
+    "Elon Musk có vai trò gì với công ty đang hợp tác cùng Microsoft?",
+    "Công ty nào phát triển LLaMA và được thành lập năm nào?",
+    "Các sản phẩm tích hợp mô hình GPT-4 của Microsoft là gì?",
+    "Sam Altman có mối liên hệ nào với Y Combinator và OpenAI?",
+    "Ai là người đồng sáng lập Google cùng với Larry Page?",
+    "Công ty nào trong dữ liệu được thành lập trước năm 2000 và ai là người sáng lập?",
+    "Mô hình GPT-4 do công ty nào phát triển và công ty đó nhận đầu tư từ ai?",
+    "Dario Amodei và Daniela Amodei đã thành lập công ty nào vào năm 2021?",
+    "Mark Zuckerberg thành lập Meta vào năm nào và công ty này phát triển những sản phẩm nào?",
+    "Những công ty nào trong dữ liệu có liên quan đến việc phát triển mô hình ngôn ngữ lớn (LLM)?",
 ]
-
 
 def step1_indexing():
     """Trích xuất triple và lưu vào file để tránh gọi API nhiều lần."""
@@ -35,10 +46,16 @@ def step1_indexing():
             return json.load(f)
 
     print("\n=== BƯỚC 1: TRÍCH XUẤT TRIPLE ===")
-    triples = extract_all_triples(CORPUS)
+    triples, total_tokens, execution_time = extract_all_triples(CORPUS)
     with open(TRIPLES_FILE, "w", encoding="utf-8") as f:
         json.dump(triples, f, ensure_ascii=False, indent=2)
+        
+    metrics = {"total_tokens": total_tokens, "execution_time": execution_time}
+    with open("metrics.json", "w", encoding="utf-8") as f:
+        json.dump(metrics, f, ensure_ascii=False, indent=2)
+        
     print(f"  → Đã lưu {len(triples)} triples vào {TRIPLES_FILE}")
+    print(f"  → Đã lưu metrics vào metrics.json")
     return triples
 
 
